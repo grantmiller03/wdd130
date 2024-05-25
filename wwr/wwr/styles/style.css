@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 #content{
     margin: 0 auto;}
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #AC2020;
@@ -18,11 +21,21 @@ nav a:hover{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
 }
 body{
     background-color: whitesmoke;
+    font-family: 'Zilla Slab', 'Courier New', 'Monaco';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: whitesmoke;
@@ -31,6 +44,11 @@ header{
     background-color: #096B72;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 .book:hover, .join:hover{
     background-color: #AC2020;
@@ -38,19 +56,32 @@ header{
 }
 #background{
     background-color: #096B72;
+    max-height: 500px;
+    margin-bottom: 200px;
+}
+.home-title{
+    font-family: 'Jaro', 'Copperplate', 'Lucida Console';
+    font-size: 2em;
 }
 .msg{
     background-color: #127D5F;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: white;
+    font-family: 'Jaro', 'Copperplate', 'Lucida Console';
 }
 .msg p{
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #127D5F;
     color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -65,21 +96,43 @@ footer a{
 footer a:hover{
     color: white;
 }
+
 .home-title{
     color:black;
+    margin-top: 10px;
 }
 h4{
     color:black;
 }
 .logo{
-    width:100px
+    max-width: 150px;
+    padding: 10px;
 }
 .icon{
-    width:80px
+    padding-top: 10px;
+    width:80px;
 }
 #hero-img{
-    width:100%
+    width:100%;
 }
 #hero{
     background-color:#127D5F;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card{
+    margin: 200px;
+}
+.camping-card{
+    margin: 200px;
+}
+.rapids-card{
+    margin: 200px;
+}
+.card-img{
+    border: 10px solid #096B72;
+}
+#heroII{
+    margin-bottom: 200px;
 }
