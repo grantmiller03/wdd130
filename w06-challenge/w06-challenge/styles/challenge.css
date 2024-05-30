@@ -1,0 +1,35 @@
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#cherries{
+    color: rgb(153, 28, 28);
+    font-size: 3em;
+    text-align:center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(190, 184, 184);
+    align-content: center;
+    padding-top: 60%;
+    font-family: "DM Serif Text"
+
+}
+#TS{
+    color: black;
+   font-size: 8em;
+   grid-column: 1/3;
+    z-index: 1;
+    align-self:center;
+    font-family: "DM Serif Text"
+
+}
+#img{
+    max-width: 100%;
+}
+.item{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
