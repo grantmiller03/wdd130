@@ -1,0 +1,15 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-color: solid black;
+
+}
+#cherries{
+color: red;
+
+}
+#TS{
+    color: black;
+    size: 200px;
+
+}
