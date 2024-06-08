@@ -99,7 +99,7 @@ header{
     max-width: 100%;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #00000070;
 }
 .msg h2{
     color: white;
@@ -189,13 +189,13 @@ h4{
 .mountains{
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #00000070;
 }
 .card-img{
     margin-top: 30px;
     border: 10px solid #096B72;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #00000070;
 }
 .card-img, .mountains{
     width: 100%;
