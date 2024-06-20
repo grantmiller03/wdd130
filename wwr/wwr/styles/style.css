@@ -11,8 +11,11 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 35px;
+    background-color:#00000020;
+    padding-top: 13px;
+    padding-bottom:10px;
     max-height: 35px;
+    width: 100%;
     z-index:1;
 }
 nav a:hover{
@@ -151,6 +154,7 @@ h4{
 }
 #hero-img{
     width:100%;
+    margin-bottom: 100px;
 }
 #hero{
     background-color:#127D5F;
@@ -161,7 +165,7 @@ h4{
 }
 #hero-box{
     grid-column: 1/4;
-    grid-row: 1/3;
+    grid-row: 1/2;
     z-index: 0;
 }
 #logo_link{
@@ -204,13 +208,12 @@ h4{
     opacity: .6;
     transform: scale(1.1);
 }
-/* FAQS Page below**********************************
+/* FAQS Page below*****************************************************
 */
 .faqs-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(14, 1fr);
-    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    padding-left:30px;
 }
 #hero-faqs{
     display: grid;
@@ -233,13 +236,15 @@ h4{
 }
 #hero-faqs-msg h1, #hero-faqs-msg h4{
     text-align: center;
-    color: white;
-    min-width: 100%;
     z-index: 2;
+}
+#hero-faqs-msg h1{
+    color:#096B72;
 }
 #hero-faqs-msg h4{
     background-color:#00000070;
     padding: 20px;
+    color:white;
 }
 .faqs-title{
     font-family: 'Jaro', 'Copperplate', 'Lucida Console';
@@ -247,10 +252,32 @@ h4{
     font-size: 6em;
 }
 .question{
-
+    grid-column:1/4;
+    font-family: 'Jaro', 'Copperplate', 'Lucida Console';
+    font-weight:100;
+    font-size: 2em;
+    color:#096B72;
+}
+.question p{
+    grid-column:1/4;
+    margin-block:-5px;
+}
+p{
+    grid-column:1/3;
+    margin-top:50px;
 }
 .faq-imgs{
-
+    grid-column:1/4;
+    margin-top: 70px;
+    margin-bottom:70px;
+    text-align:center;
+    border: 10px solid #096B72;
+    box-shadow: 5px 5px 10px #00000070;
+    
+}
+.two-imgs{
+    grid-column:1/4;
+    display:inline;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
