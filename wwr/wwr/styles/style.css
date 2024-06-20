@@ -268,15 +268,16 @@ p{
 }
 .faq-imgs{
     grid-column:1/4;
+    display:inline-block;
+    text-align:center;
     margin-top: 70px;
     margin-bottom:70px;
-    text-align:center;
+
     border: 10px solid #096B72;
     box-shadow: 5px 5px 10px #00000070;
     
 }
 .two-imgs{
-    display:inline-block;
 }
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
