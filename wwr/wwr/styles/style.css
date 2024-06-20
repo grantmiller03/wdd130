@@ -204,7 +204,54 @@ h4{
     opacity: .6;
     transform: scale(1.1);
 }
+/* FAQS Page below**********************************
+*/
+.faqs-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    width: 100%;
+}
+#hero-faqs{
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+    grid-template-rows: 1fr, 3fr, 1fr;
+    margin-top: -200px;
+    z-index: 0;
+    width:100%;
+}
+#hero-faqs-box{
+    grid-column: 1/4;
+    grid-row: 1/5;
+    z-index: 0;
+}
+#hero-faqs-msg{
+    margin-top: 100px;
+    grid-column: 1/4;
+    grid-row: 1/5;
+    z-index: 2;
+}
+#hero-faqs-msg h1, #hero-faqs-msg h4{
+    text-align: center;
+    color: white;
+    min-width: 100%;
+    z-index: 2;
+}
+#hero-faqs-msg h4{
+    background-color:#00000070;
+    padding: 20px;
+}
+.faqs-title{
+    font-family: 'Jaro', 'Copperplate', 'Lucida Console';
+    font-weight:100;
+    font-size: 6em;
+}
+.question{
 
+}
+.faq-imgs{
+
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
