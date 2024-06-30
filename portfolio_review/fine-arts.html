@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <meta charset="utf-8">
+    <title>Portfolio Home</title>
+    <link type="text/css" rel="stylesheet" href="styles/portfolio.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&display=swap');
+    </style>
+    </head>
+  <div id="content">
+    <header>
+        <a href="index.html" id="logo_link">
+            <img class="logo" src="images/Logotype.png" alt="Specialty Rafting Logo">
+        </a>
+        <link rel="stylesheet" href="styles/portfolio.css">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fine-arts.html">Fine Arts</a>
+            <a href="graphic-design.html">Graphic Design</a>
+            <a href="">Behance</a>
+        </nav>
+    </header>
+    <main>
+      <h1>Fine Arts</h1>
+      <div id="intro-img">
+        <img id="charcoal-self" src="optimized/20231229_173205-min.jpg">
+        <p>Fine Arts paragraph</p>
+      </div>
+
+      <div id="Fine Artworks">
+        <p>Fine Artworks:</p>
+        <!-- Slideshow W3 schools here-->
+        <div class="slideshow-container">
+            <!--full-width images w/number and caption text-->
+            <!--Image bust-->
+            <div class="mySlides fade">
+                <div class="numbertext">1/6</div>
+                    <img id="bust" src="optimized/20231009_185314-min.jpg" alt="">
+                <div class="text">Caption Text</div>
+            </div>
+            <!--Image floating-->
+            <div class="mySlides fade">
+                <div class="numbertext">2/6</div>
+                    <img id="floating" src="optimized/20231203_205141-min.jpg" alt="">
+                <div class="text">Caption TextII</div>
+            </div>
+            <!--Image ageless-->
+            <div class="mySlides fade">
+                <div class="numbertext">3/6</div>
+                    <img id="ageless" src="optimized/20230601_221351-min.jpg" alt="">
+                <div class="text">Caption TextIII</div>
+            </div>
+            <!--Image cinema-->
+            <div class="mySlides fade">
+                <div class="numbertext">4/6</div>
+                    <img id="cinema" src="optimized/20230608_222856-min.jpg" alt="">
+                <div class="text">Caption TextIV</div>
+            </div>
+            <!--Image bat-man-->
+            <div class="mySlides fade">
+                <div class="numbertext">5/6</div>
+                 <img id="bat-man" src="optimized/20231005_191855-min.jpg" alt="">
+                <div class="text">Caption TextV</div>
+            </div>
+            <!--Image stout-->
+            <div class="mySlides fade">
+                <div class="numbertext">6/6</div>
+                    <img id="stout" src="optimized/20231005_191651-min.jpg" alt="">
+                <div class="text">Caption TextVI</div>
+            </div>
+            <!--Next and previous buttons-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!--Dots/circles-->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span> 
+        </div>
+        <!--JAVASCRIPT slideshow-->
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+        <!--JAVASCRIPT END-->
+    </main>
+  </div>
+  <footer>
+      <p><a href="">Behance</a></p>
+      <p><a href="portfolio_review/index.html">Home</a></p>
+      <p><a href="portfolio_review/fine-arts.html">Fine Arts</a></p>
+      <p><a href="portfolio_review/graphic-design.html">Graphic Design</a></p>
+      <div class="socials">
+        <p>Grant Miller 2024&copy;</p>
+        <a href="">mil22003@byui.edu</a>
+        <a href="">only1gmiller@gmail.com</a>
+        <a href="">@nochancelot</a>
+      </div>
+  </footer>
+</html>
