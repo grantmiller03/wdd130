@@ -152,12 +152,18 @@ footer{
   color:white;
   padding: 25px 50px;
   margin-top: 200px;
-  display: flex;
+  display:block;
+  grid-template-rows:1fr 1fr 30px;
+  grid-template-columns:1fr 2fr 100px;
   justify-content: space-around;
   align-items: center;
+  max-height:150px;
 }
   footer p{
+    font-family:"Lexend Deca";
    font-size: 1em;
+   font-weight:400;
+   text-align:left;
   }
   footer p a:hover{
     text-decoration: underline;
@@ -166,10 +172,31 @@ footer{
   footer a{
     color:white;
     text-decoration:none;
+    padding:30px;
   }
   footer a:hover{
     color:white;
     text-decoration: underline;
+  }
+  .foot-link{
+    display:inline-block;
+    align-content:left;
+  }
+  .socials a{
+    font-size:1em;
+    font-family:"Courier Prime";
+    padding:30px;
+  }
+  .socials p{
+    text-align:center;
+    color:#1B353F;
+    margin:0 auto;
+  }
+  .soc{
+    display:block;
+    margin:-50px;
+    z-index:2;
+    text-align:right;
   }
 /*endFooter*/
 
