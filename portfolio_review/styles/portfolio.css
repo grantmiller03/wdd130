@@ -89,6 +89,7 @@ main h1{
   background-color:#1B353F;
 }
 .textII{
+  display:block;
   text-align:center;
   font-size:3em;
   font-family:'Lexend Deca';
@@ -98,12 +99,18 @@ main h1{
 .textI{
   color:white;
   font-family:"Courier Prime";
-  font-size:1em;
+  font-size:1.3em;
   text-align:center;
   padding-top:50px;
 }
+.text{
+  font-family:"Courier Prime";
+  font-size:1em;
+  text-align:center;
+  z-index:2;
+}
 #slide-images{
-  max-width:400px;
+  max-height:200px;
 }
 
 /*Example slideshow-------------------------------------------*/
