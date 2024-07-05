@@ -110,7 +110,7 @@ main h1{
   z-index:2;
 }
 #slide-images{
-  max-height:200px;
+  max-height:100%;
 }
 
 /*Example slideshow-------------------------------------------*/
@@ -129,12 +129,13 @@ main h1{
   display: none;
   display: block;
   max-width:100%;
+  position:relative;
 }
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: relative;
-  top: 50%;
+  position:absolute;
+  bottom: 80px;
   width: auto;
   margin-top: -22px;
   padding: 16px;
