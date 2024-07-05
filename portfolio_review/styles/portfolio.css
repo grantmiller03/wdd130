@@ -110,9 +110,43 @@ main h1{
   text-align:center;
   z-index:2;
 }
-#slide-images{
-  max-height:100%;
+/*Image edits*/
+#pin{
+  min-width:650px;
 }
+#sloth{
+  min-width:650px;
+}
+#circles{
+  background-color:white;
+  padding-top:10px;
+}
+#chess{
+  min-width:650px;
+  max-width:
+}
+#OTypographic{
+  min-width:650px;
+}
+#choice{
+  min-width:650px;
+}
+#lightning{
+  min-width:650px;
+}
+#typography-comp{
+  min-width:650px;
+}
+#business-card{
+  min-width:800px;
+}
+#font-ad{
+  min-width:100%;
+}
+#floating{
+  min-width:600px;
+}
+/*end of Image edits*/
 
 /*Example slideshow-------------------------------------------*/
 * {box-sizing:border-box}
@@ -136,17 +170,17 @@ main h1{
 .prev, .next {
   cursor: pointer;
   position:absolute;
-  top: -200px;
+  top: -40px;
   width: auto;
   margin-top: -22px;
-  color: white;
+  color: #C08C34;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   background-color: #00000000;
-
+  z-index:2;
 }
 
 /* Position the "next button" to the right */
