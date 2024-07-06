@@ -180,7 +180,6 @@ footer{
   }
   .foot-link{
     display:inline-block;
-    align-content:left;
   }
   .socials a{
     font-size:1em;
@@ -206,7 +205,7 @@ footer{
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position:realtive;
+  position:relative;
   margin: 0 auto;
   text-align:center;
 }
