@@ -157,7 +157,7 @@ footer{
   grid-template-columns:1fr 2fr 100px;
   justify-content: space-around;
   align-items: center;
-  max-height:150px;
+  min-height:200px;
 }
   footer p{
     font-family:"Lexend Deca";
@@ -185,6 +185,7 @@ footer{
     font-size:1em;
     font-family:"Courier Prime";
     padding:30px;
+    margin-top:-10px;
   }
   .socials p{
     text-align:center;
