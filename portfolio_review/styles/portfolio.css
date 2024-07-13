@@ -145,6 +145,14 @@ main h1{
 #floating{
   min-width:600px;
 }
+#intro-img p{
+  font-family:"Courier Prime";
+  font-size:1.3em;
+}
+#graphic-intro p{
+  font-family:"Courier Prime";
+  font-size:1.3em;
+}
 /*end of Image edits*/
 /*Footer*/
 footer{
