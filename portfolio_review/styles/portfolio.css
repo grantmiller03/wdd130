@@ -96,8 +96,10 @@ main h1{
   color:#1B353F;
   font-family:"Courier Prime";
   font-size:1.3em;
-  text-align:center;
+  text-align:left;
   padding-top:50px;
+  margin:0 auto;
+  max-width:800px;
 }
 .text{
   font-family:"Courier Prime";
