@@ -289,24 +289,44 @@ footer{
   }
   .foot-link{
     display:inline-block;
+    grid-row:1/5;
+    justify-content:center;
   }
-  .socials a{
+  .socials button{
+    display:block;
+    grid-column:4/5;
     font-size:1em;
     font-family:"Courier Prime";
-    padding:30px;
-    margin-top:-10px;
+    padding:5px;
+    margin-top:0;
+    background-color:#1B353F;
+    border-color:#1B353F;
+    margin:0;
+    text-align:center;
+    z-index:3;
+  }
+  .socials{
+    display:grid;
+    grid-column:1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
+    background-color:#1B353F;
+    margin:0 auto;
+    min-width:90%;
+    min-height:100%;
   }
   .socials p{
-    text-align:center;
-    color:#C08C34;
-    margin:0 auto;
-  }
-  .soc{
-    display:block;
-    margin:-50px;
+    color:#A84724;
+    margin-top:-70px;
+    padding-top:20px;
+    padding-bottom:0px;
+    justify-self:center;
+    grid-row:4/4;
+    grid-column:1/4;
     z-index:2;
-    text-align:right;
-    background-color:#1B353F;
+  }
+  .socials button:hover{
+    color:white;
+    text-decoration:underline;
   }
 /*endFooter*/
 
