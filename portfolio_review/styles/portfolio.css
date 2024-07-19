@@ -24,7 +24,7 @@ nav{
   justify-self:center;
   align-self:center;
   width:100%;
-  font-size:1.2em;
+  font-size:1.1em;
   font-family:'Lexend Deca';
 }
 nav a{
@@ -36,6 +36,7 @@ nav a{
   background-color:#1B353F;
   color:#C08C34;
   width: 100%;
+  border-radius:15px;
   z-index:1;
 }
 nav a:hover{
@@ -312,6 +313,7 @@ footer{
     grid-row: 1fr 1fr 1fr;
     padding-top:20px;
     background-color:#1B353F;
+    border-radius:15px;
     margin:0 auto;
     min-width:90%;
     min-height:100%;
