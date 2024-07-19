@@ -166,23 +166,21 @@ main h1{
 }
 /*end of Image edits*/
 #graphic-intro{
-  grid-template-columns:repeat(9, 1fr);
-  grid-template-rows:repeat(9, 1fr);
+  grid-template-columns:5% repeat(7, 1fr) 5%;
+  grid-template-rows:1fr repeat(9, 8%);
   display:grid;
   background-color:#1B353F;
+  padding-bottom:50px;
 }
 #graphic-intro p{
   font-family:"Courier Prime";
   font-size:1.3em;
   color:white;
-  background-color:#00000090;
   grid-column:2/9;
-  grid-row:8/10;
-  z-index:4;
-  max-width:800px;
-  min-width:70%;
-  margin-right:30px;
-  justify-self: center;
+  grid-row:1/2;
+  z-index:6;
+  max-width:900px;
+  justify-self:center;
   padding:20px 20px;
 }
 #first{
