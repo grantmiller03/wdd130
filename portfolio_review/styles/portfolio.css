@@ -47,7 +47,7 @@ main h1{
   font-size:3em;
   font-family:'Lexend Deca';
   font-weight:400;
-  padding-bottom:30px;
+  padding-bottom:40px;
   color:#A84724;
 }
 #me{
@@ -181,7 +181,7 @@ main h1{
   z-index:6;
   max-width:900px;
   justify-self:center;
-  padding:20px 20px;
+  padding:20px 20px 0 20px;
 }
 #first{
   grid-column:2/7;
