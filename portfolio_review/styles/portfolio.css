@@ -297,13 +297,13 @@ footer{
     grid-column:4/5;
     font-size:1em;
     font-family:"Courier Prime";
-    padding:5px;
+    padding:5px 20px 5px 0px;
     margin-top:10px;
     color:white;
     background-color:#1B353F;
     border-color:#1B353F00;
     margin:0;
-    text-align:center;
+    text-align:right;
     z-index:3;
   }
   .socials{
