@@ -320,6 +320,7 @@ footer{
     min-height:100%;
   }
   .socials p{
+    display:block;
     color:#A84724;
     margin-top:-70px;
     padding-top:13px;
@@ -330,7 +331,7 @@ footer{
     z-index:2;
   }
   .socials button:hover{
-    color:white;
+    color:#A84724;
     text-decoration:underline;
   }
 /*endFooter*/
