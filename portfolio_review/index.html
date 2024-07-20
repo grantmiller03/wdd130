@@ -103,11 +103,15 @@
     <p class="foot-link"><a href="graphic-design.html">Graphic Design</a></p>
     <p class="foot-link"><a href="site-plan.html">Site-Plan</a></p>
     <div class="socials">
-        <button class="js-copy-school-btn">mil22003@byui.edu</button>
-        <button class="js-copy-email-btn">only1gmiller@gmail.com</button>
-        <button class="js-copy-instagram-btn">@nochancelot</button>
+      <button onclick="myFunction()"class="js-copy-school-btn">mil22003@byui.edu</button>
+      <button onclick="myFunction()"class="js-copy-email-btn">only1gmiller@gmail.com</button>
+      <button onclick="myFunction()"class="js-copy-instagram-btn">@nochancelot</button>
       <!--Javascript -->
     <script>
+      function myFunction(){
+      confirm("Copied!")
+    }
+    // end of copy confirm script//
     function copyTextToClipboard(text) {
         var textArea = document.createElement("textarea");
 
