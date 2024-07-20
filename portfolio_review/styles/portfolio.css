@@ -206,9 +206,8 @@ main h1{
 }
 #first:hover + .hideI{
   display:inline;
-  transform:scale(110%);
-  z-index:4;
-}
+  scale:110%;
+   z-index:4;}
 #second{
   grid-column:3/8;
   grid-row:3/8;
@@ -229,7 +228,7 @@ main h1{
 }
 #second:hover + .hideII{
   display:inline;
-  transform:scale(110%);
+  scale:110%;
 }
 #third{
   grid-column:4/9;
@@ -251,7 +250,7 @@ main h1{
 }
 #third:hover + .hideIII{
   display:inline;
-  transform:scale(110%);
+  scale:110%;
 }
 .comic-pgs{
   max-width:100%;
