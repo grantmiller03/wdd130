@@ -36,7 +36,7 @@ nav a{
   background-color:#1B353F;
   color:#C08C34;
   width: 100%;
-  border-radius:15px;
+  border-radius:7px;
   z-index:1;
 }
 nav a:hover{
@@ -73,6 +73,7 @@ main h1{
   background-color:#C08C34;
   padding:20px;
   color:white;
+  border-radius:7px;
   max-width:500px;
   font-size:1em;
 }
@@ -164,6 +165,7 @@ main h1{
   padding:20px;
   color:white;
   max-width:500px;
+  border-radius:7px;
 }
 /*end of Image edits*/
 #graphic-intro{
